@@ -9,7 +9,7 @@ Enables the TeddyBearPi relay modules.
 For support, click [here](https://github.com/TroQt/homeassistant/wiki).
 
 # Installation
-Within Home Assistant, click Supervisor-> Add-on Store -> … button (in top left)-> Repositories. Add this repository. 
+Within Home Assistant, click Settings > Add-ons > Add-on Store > … button (in top left) > Repositories. Add this repository. 
 
 # Operation
 
