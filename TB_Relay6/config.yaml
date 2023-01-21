@@ -2,9 +2,15 @@ name: "TB_Relay6"
 description: "TedddyBearPi Relay6 Add-on"
 version: "1.0.0"
 slug: "tbpi_relay6"
-init: false
+init: true
 arch:
   - aarch64
   - amd64
   - armhf
-  - armv7
+  - armv7 
+devices:
+  - /dev/i2c-1
+privileged:
+  - SYS_ADMIN
+  - SYS_RAWIO
+  - SYS_RESOURCE
